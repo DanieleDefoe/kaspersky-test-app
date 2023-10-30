@@ -6,12 +6,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Kaspersky Next App',
-  description: 'Created by Abuzar Mamedov',
+  description: 'Создатель приложения: Абузар Мамедов',
 };
 
 export default function RootLayout({ children }: BaseLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={`${inter.className} bg-gray-300`}>
         <main className="min-h-screen bg-black flex items-center justify-center w-full">
           {children}
